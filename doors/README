@@ -1,0 +1,8 @@
+This is the location where included door programs would be located.
+The door interface is a single multiplexed socket connection to a single
+multiplexed server socket which resides in its own thread on the server
+(one socket for each door).  Multiplexing these means that N clients could
+use the same door program with just one process, one thread, and one socket
+being used.  Also, this allows for easy 'multicasting', etc.  The API
+and examples are coming in the next version; please stay tuned... :)
+- chrootstrap

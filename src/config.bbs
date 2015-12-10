@@ -1,0 +1,15 @@
+# Example Pipo-BBS Server Settings
+
+# PORT is the TCP socket port the server listens at.
+PORT = 7170
+
+# BBS_NAME is the name of the BBS as it appears to clients.
+# This should be unique as it's the way people refer to your
+# particular BBS.
+BBS_NAME = "Your BBS"
+
+# DATA_PATH is the path to the data files for menus, users, etc.
+DATA_PATH = "data"
+
+# COUNTRY_CODE is the default ISO country code of your server.
+COUNTRY_CODE = "en"

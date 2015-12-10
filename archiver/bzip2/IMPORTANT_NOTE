@@ -1,0 +1,22 @@
+PLEASE NOTE THE FOLLOWING:
+
+These files originate from the libbzip2 version 1.0.2 source obtained at
+http://sources.redhat.com/bzip2 .  The bzip2 files included with Pipo-BBS
+are a subset of the original bzip2 distribution.  Notably, they lack
+documentation and the bzip2/bunzip2 application source.
+
+The bzip2 files that have been included have been slightly modified by
+restricting the inclusion of several sections of code if 'SKINNY' is
+defined when compiling.  This has the effect of reducing the library size
+and number of functions.  In particular this is used to limit the
+included functionality to only decompression (i.e. not compression).
+
+The license for bzip2 is included in the documentation directory of both
+the Pipo-BBS source distribution and the release archive.
+
+Thanks to Julian Seward and others who have worked on bzip2 for a truly
+excellent and patent-free compression library.
+
+Cheers,
+
+chrootstrap (chrootstrap@yahoo.com)
