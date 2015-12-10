@@ -24,7 +24,7 @@ output with the source that works as well as Sun's javac in this case.
 ```
 $ ./installer
 
-$ cd PipoBBS
+$ cd Pipo-BBS
 
-$ ./PipoBBS
+$ ./Pipo-BBS
 ```
